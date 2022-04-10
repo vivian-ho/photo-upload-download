@@ -2,7 +2,7 @@
 
 <img src="https://s3uploader-s3uploadbucket-1kjnw6fxg2vhh.s3.amazonaws.com/happy.png" alt="screenshot" title="file upload/download" width="600"/>
 
-The frontend consists of 2 main functions: \
+The frontend consists of 2 main functions:
 1) image upload
 2) image download
 
@@ -11,11 +11,11 @@ Responsive design\
 Lazy loading\
 Accessibility\
 Animation\
-Loading animation (spinner)\
+Loading animation (spinner)
 
 User has the ability to upload an image and download multiple images into a zip package saved to a local folder.\
 
-Code for upload and download backend services is available in these folders:\
+Code for upload and download backend services is available in these folders:
 ../upload \
 ../get-content \
 ../load \

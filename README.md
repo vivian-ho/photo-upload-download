@@ -14,7 +14,7 @@ This application allows you to upload objects to S3 directly from your end-user 
 ### Installing the application
 
 You will not be able to deploy with your own AWS credentials, this is just a general guideline on how to deploy. (You can clone the code and \
-use your own AWS credentials to deploy with some modification to the config file, however) \
+use your own AWS credentials to deploy with some modification to the config file, however)
 
 cd to each folder (upload, load, get-content), run the following:
 ```
@@ -37,8 +37,8 @@ The frontend code is saved in the `frontend` subdirectory.
 
 1. Go to the frontend folder and run:
 yarn \
-yarn start \
+yarn start
 
-http://localhost:3000 \
+http://localhost:3000
 
 2. Once the page is loaded from a remote location, upload an image file (jpg, png, gif) in the front-end and you will see the object in the backend S3 bucket. The uploaded image will be hot loaded in the front end as well.
