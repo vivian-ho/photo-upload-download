@@ -1,0 +1,7 @@
+{
+  "uploadUrl": "https://ksmukx12hl.execute-api.us-east-1.amazonaws.com/uploads",
+  "bucket": "s3uploader-s3uploadbucket-1kjnw6fxg2vhh",
+  "fetchUrl": "https://ex36mtmadd.execute-api.us-east-1.amazonaws.com/loads?bucket=",
+  "getContentUrl": "https://m04oievth0.execute-api.us-east-1.amazonaws.com/get-content?bucket=",
+  "downloadUrl": "https://qmlir1fjce.execute-api.us-east-1.amazonaws.com/downloads?bucket="
+}
