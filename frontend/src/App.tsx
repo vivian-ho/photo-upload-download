@@ -20,7 +20,7 @@ function App() {
   const [downloadDisabled, setDownloadDisabled] = useState(false);
   const [uploadDisabled, setUploadDisabled] = useState(false);
   const [uploadStatus, setUploadStatus] = useState("");
-  const [downloadList, setDownloadList] = useState([]) as any;
+  const [downloadList, setDownloadList] = useState([]);
   const [allImages, setAllImages] = useState([]);
   const [scrollingImages, setScrollingImages] = useState(
     allImages.slice(0, INITIAL_COUNT)
@@ -32,9 +32,7 @@ function App() {
     image: "",
   });
   const [loading, setLoading] = useState(false);
-  const cache = useRef({}) as any;
-
-  //useScript('node-modules/jszip-utils.js');
+  const cache = useRef({});
 
   useMemo(() => {
     if (!allImages.length) {
@@ -219,7 +217,7 @@ function App() {
 
   return (
     <div className="app">
-      <header>Happy path file upload/download</header>
+      <header>File upload/download</header>
       {loading && (
         <div className="loader">
           {Array.from(Array(5)).map((dot) => {
@@ -292,12 +290,12 @@ function App() {
           >
             Download file(s)
           </button>
-          <div className="download-image">
+          {/*<div className="download-image">
             <img
               src="http://100dayscss.com/codepen/upload.svg"
               className="download-icon"
             />
-          </div>
+        </div>*/}
           <div className="notes">
             (Make sure to select at least 1 image below.)
           </div>

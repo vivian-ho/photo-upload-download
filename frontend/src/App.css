@@ -43,8 +43,8 @@ input {
   overflow: hidden;
   background: linear-gradient(
     to top right,
-    rgb(146, 174, 185) 0%,
-    rgb(187, 230, 235) 100%
+    rgb(124, 87, 129) 0%,
+    rgb(228, 216, 226) 100%
   );
   color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -138,7 +138,7 @@ h1 {
   display: block;
   width: 140px;
   height: 40px;
-  background: rgb(144, 201, 188);
+  background: rgb(124, 87, 129);
   color: #fff;
   border-radius: 2px;
   border: 0;
@@ -149,13 +149,13 @@ h1 {
 }
 
 .btn-upload:hover {
-  background: rgb(145, 197, 197);
-  box-shadow: 0 3px 0 0 rgb(111, 172, 149);
+  background: rgb(182, 161, 189);
+  box-shadow: 0 3px 0 0 rgb(160, 111, 172);
 }
 
 .btn-download:hover {
-  background: rgb(145, 197, 197);
-  box-shadow: 0 3px 0 0 rgb(111, 172, 149);
+  background: rgb(182, 161, 189);
+  box-shadow: 0 3px 0 0 rgb(160, 111, 172);
 }
 
 .btn-upload:disabled {
@@ -400,11 +400,11 @@ input[type="checkbox"] {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #e1f7e8;
+  background-color: rgb(233, 236, 233);
 }
 
 .checkbox-label:hover input ~ .checkbox-span {
-  background-color: rgb(197, 226, 184);
+  background-color: rgb(211, 184, 226);
 }
 
 .checkbox-label input:active ~ .checkbox-span {
